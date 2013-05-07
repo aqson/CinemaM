@@ -1,0 +1,98 @@
+* {
+  font-family: Garamond, sans-serif;
+}
+
+body {
+  background: url(escheresque_ste.png) repeat;
+}
+#container {
+  padding-top: 10px;
+  border-radius: 0px;
+  padding-bottom: 20px;
+  width: 400px;
+  background-color: rgba(0,0,0,0.7);
+  margin: auto;
+  padding-left: 7px;
+  box-shadow: 0 0 25px #01283B;
+}
+
+.places {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  border-radius: 3px;
+  margin: 3px;
+  text-align: center;
+  background-color: rgba(135,209,255,0.84);
+}
+.places:hover {
+  background-color: rgba(66,183,255,0.85);
+}
+
+.ordered {
+  background-color: rgba(135,209,255,0.2);
+}
+
+.ordered:hover {
+  background-color: rgba(135,209,255,0.2);
+  cursor: default;
+
+}
+
+.selected {
+  background-color: rgba(255,0,0,0.8);
+  color: white;
+}
+.selected:hover {
+  background-color: rgba(255,0,0,0.8);
+  color: white;
+}
+
+.order {
+     width: 150px;
+     height: 30px;
+     line-height: 30px;
+     color: white;
+     text-decoration: none;
+     cursor: pointer;
+     font-size: 15px;
+     font-family: helvetica, arial, sans-serif;
+     font-weight: bold;
+     display: block;
+     text-align: center;
+     position: relative;
+     margin: auto;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     background: #014464;
+     -moz-border-radius: 3px;
+     -webkit-border-radius: 3px;
+     border-radius: 3px;
+     border: 1px solid #368DBE;
+     border-top: 1px solid #c3d6df;
+     text-shadow: 1px 1px 1px black;
+     -moz-box-shadow: 0 1px 3px black;
+     -webkit-box-shadow: 0 1px 3px black;
+     box-shadow: 0 1px 3px black;
+}
+.order:hover {
+     background: #0373A8;
+}
+.order:active {
+  -moz-box-shadow: 0 2px 6px black;
+  -webkit-box-shadow: 0 2px 6px black;
+  box-shadow: 0 2px 6px black;
+  background: #012333;
+
+}
+
+h4 {
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-weight: normal;
+}
+

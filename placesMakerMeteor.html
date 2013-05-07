@@ -1,0 +1,30 @@
+<head>
+  <title>Places maker with Meteor</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <div id="container">
+    <h4>Select your place(s)</h4>
+    {{> allPlaces}}
+    {{> order}}
+  </div>
+  <div class="userName">
+  </div>
+</body>
+
+<template name="allPlaces">
+  {{#each places}}
+    {{> placeItem}}
+  {{/each}}
+</template>
+
+<template name="placeItem">
+  <div class="places {{placeClass}} {{placeEvent}}">{{title}}</div>
+</template>
+
+<template name="order">
+<div class="order">Order</div>
+</template>
+
+
