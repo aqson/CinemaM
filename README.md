@@ -8,7 +8,7 @@ Need application that help people order places in your cinema, at the conference
 **Create your project:**  
 ```$ meteor create your_project```   
 
-**Insert this app files to *your_project*** 
+**Insert this app files to your_project** 
 
 **Run it locally:**   
   
